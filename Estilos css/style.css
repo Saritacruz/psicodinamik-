@@ -1,0 +1,129 @@
+body{
+    background: papayawhip;
+    font-family: 'poppins', sans-serif; /*fuente*/
+    max-width: 900px; /* alt + shift + a --anncho maximo */
+    margin: 0 auto; /* margen */
+}
+
+nav{
+    width: 100%; /*ancho*/
+    height: 160px;
+    background: pink (235, 180, 78,0 883); /* color de fondo*/
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px  20px;
+}
+
+nav ul li:hover{ /*cuando este sobre un elemento suceda algo*/
+    background-color: white;
+}
+
+.img-logo{
+    width: 180px; /*ancho*/
+padding: 20px;
+padding-right: 20%;
+}
+
+nav ul{
+    padding-top: 10px;  /*relleno superior*/
+    display: inline-flex;
+    top: -50px;
+}
+
+nav ul li a{
+    text-decoration: none; /*decoracion de  texto*/
+    color: black; /*color de letra*/
+}
+
+h2,figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*ESTILOS DE SECCION 1*/
+
+.seccion1{
+    background-color: plum;
+}
+
+.video{
+    width: 55%;
+    padding: 15px;
+}
+
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+article{
+    padding: 30px;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+article h2{
+    border-bottom: 1px solid palevioletred;
+}
+
+.texto, .video{
+    display: inline-block;
+}
+
+.boton{
+    text-align: center;  /*alinear texto*/
+    background-color: palevioletred;
+    padding: 8%;
+}
+
+.boton a{
+    text-decoration: none;
+    color: black;
+}
+
+.boton:hover{
+    background: purple;
+}
+
+/* ARTICULOS*/
+
+section{
+    background-color: pink;
+    padding: 15px;
+    text-align: center;
+}
+
+section h2{
+    border-bottom: 1px solid pink; 
+}
+
+
+.img-art{
+    max-width: 100%;
+}
+
+.cont-art{
+    width: 810px;
+    vertical-align: top;
+    text-align: center;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    padding: 45px;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+}
