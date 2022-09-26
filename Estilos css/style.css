@@ -1,13 +1,23 @@
 body{
-    background: papayawhip;
-    font-family: 'poppins', sans-serif; /*fuente*/
-    max-width: 900px; /* alt + shift + a --anncho maximo */
-    margin: 0 auto; /* margen */
+    font-family: 'Dangrek', cursive; /*fuente*/
+    max-width: 38cm; /* alt + shift + a --anncho maximo */
+    margin: 1cm; /* margen */
+    position: relative ;
+    padding-bottom: 2em;
+    min-height: 100vh;
+    background-image: url(https://st.depositphotos.com/1288351/3082/i/600/depositphotos_30826649-stock-photo-pink-spring-background.jpg);
+    background-size: 60cm;
+}
+
+.contenedor{
+    width: 1270px;
+    max-width: 1270px;
+    margin: o auto ;
 }
 
 nav{
-    width: 100%; /*ancho*/
-    height: 160px;
+    width: auto; /*ancho*/
+    height: auto;
     background: pink (235, 180, 78,0 883); /* color de fondo*/
 }
 
@@ -19,12 +29,12 @@ nav ul li {
 }
 
 nav ul li:hover{ /*cuando este sobre un elemento suceda algo*/
-    background-color: white;
+    background-color: purple;
 }
 
 .img-logo{
-    width: 180px; /*ancho*/
-padding: 20px;
+    width: 100px; /*ancho*/
+padding: 30px;
 padding-right: 20%;
 }
 
@@ -35,35 +45,38 @@ nav ul{
 }
 
 nav ul li a{
-    text-decoration: none; /*decoracion de  texto*/
+    text-decoration: navajowhite; /*decoracion de  texto*/
     color: black; /*color de letra*/
 }
 
+
 h2,figure, ul{
-    margin: 0;
+    margin: auto;
 }
 
 img{
     max-width: 100%;
 }
 
+
 /*ESTILOS DE SECCION 1*/
 
 .seccion1{
-    background-color: plum;
+    background-image: url(https://www.blogdelfotografo.com/wp-content/uploads/2016/07/Lizzie-Bitty.jpg);
 }
 
 .video{
-    width: 55%;
+    width: 40%;
+    height: 70;
     padding: 15px;
 }
 
 .texto{
-    width: 30%;
+    width: 55%;
     padding: 15px;
     vertical-align: top;
+    
 }
-
 article{
     padding: 30px;
     background-color: rgba(red, green, blue, alpha);
@@ -80,7 +93,7 @@ article h2{
 .boton{
     text-align: center;  /*alinear texto*/
     background-color: palevioletred;
-    padding: 8%;
+    padding: 3%;
 }
 
 .boton a{
@@ -95,7 +108,8 @@ article h2{
 /* ARTICULOS*/
 
 section{
-    background-color: pink;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN0a3x2A0JzVXLnxPByZueQrOtGdqu2_xIe6g5hKYCVc7LPugrtf9ceEd1BzC7Q2PjLXI&usqp=CAU);
+    background-size: 100rem;
     padding: 15px;
     text-align: center;
 }
@@ -106,24 +120,33 @@ section h2{
 
 
 .img-art{
-    max-width: 100%;
+    position: -webkit-sticky;
+   
 }
 
 .cont-art{
-    width: 810px;
-    vertical-align: top;
-    text-align: center;
+    width: 1250px;
+    vertical-align: middle;
+    text-align: calc(--anncho);
 }
 
+
 footer{
-    background-color: blueviolet;
-    color: white;
+    background-color: rgba(red, green, blue, alpha);
+    color: black;
     line-height: 30px;
     text-align: center;
     padding: 45px;
+    
 }
 
 footer div a{
-    text-decoration: none;
-    color: white;
+    text-decoration: aqua;
+    color: black;
+    bottom: 0%;
+}
+
+footer button{
+    background: none;
+    font-size: larger;
 }
